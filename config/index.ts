@@ -1,0 +1,35 @@
+import type { Metadata } from "next";
+
+export const siteConfig: Metadata = {
+  title: "LAGNAOUI Rida |  RD_Portfolio",
+  description: "Welcome to my full stack RD_Portfolio.",
+  keywords: [
+   "Rida Lagnaoui",
+    "ingénieur informatique",
+    "full stack developer",
+    "devops engineer",
+    "nextjs",
+    "reactjs",
+    "flutter",
+    "spring boot",
+    "laravel",
+    "nodejs",
+    "docker",
+    "kubernetes",
+    "git",
+    "github actions",
+    "vercel",
+    "netlify",
+    "html",
+    "css",
+    "seo",
+    "wordpress",
+    "cloud",
+    "infrastructure",
+    "tanger",
+  ] as Array<string>,
+  authors: {
+    name: "LAGNAOUI Rida",
+    url: "https://github.com/ridaLGN",
+  },
+} as const;
